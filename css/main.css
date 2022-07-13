@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.iphone{
+    margin-top: 40px;
+}
+.iphone>h1{
+    font-size: 40px;
+}
+.form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.form>label>span{
+    font-size: 35px;
+    font-weight: 700;
+}
+.form__label-box{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
+.form__label-box>label{
+    flex-direction: column;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.form__label-box-text{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.form__label-box-radio{
+    border: 1px solid black;
+    width: 90px;
+    height: 100px;
+    border-radius: 5px;
+}
+.form__label-box>label>input:checked~span{
+    color: #ccc;
+}
+.form__label-list1>input:checked ~ div{
+    background-image: url(../img/silver.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.form__label-list2>input:checked ~ div{
+    background-image: url(../img/graphite.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.form__label-list3>input:checked ~ div{
+    background-image: url(../img/gold.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.form__label-list4>input:checked ~ div{
+    background-image: url(../img/blue.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.form__label-box>label>input{
+    appearance: none;
+}
+.form__btn{
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 80px;
+    color: black;
+    background-color: white;
+    border:1px solid rgb(130, 172, 246);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 3px 0 3px rgb(130, 172, 246);
+}
+.form__btn:hover{
+    box-shadow:3px 0 4px 1px rgb(130, 172, 246) ;
+}
+
